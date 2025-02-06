@@ -18,7 +18,8 @@ EdgeOCR APPの「出力モード」ごとに使用するプログラムが異な
 サーバーが立ち上がった状態で、EdgeOCR APPからスキャン結果を投げると、フォーカスの当たっている箇所にスキャン結果を入力します。
 
 EdgeOCR APPの設定は下記画像を参考にしてください。
-![TCP 設定例](images/tcp.png)
+
+<img src="images/tcp.png" width="320px">
 
 ### UDPの場合
 
@@ -27,7 +28,8 @@ EdgeOCR APPの設定は下記画像を参考にしてください。
 サーバーが立ち上がった状態で、EdgeOCR APPからスキャン結果を投げると、フォーカスの当たっている箇所にスキャン結果を入力します。
 
 EdgeOCR APPの設定は下記画像を参考にしてください。
-![UDP 設定例](images/udp.png)
+
+<img src="images/udp.png" width="320px">
 
 ### Http出力の場合
 Pythonを使用します。Python（3系）をインストールしていない場合は、事前にMicrosoft StoreなどでPythonをインストールしておいてください。
@@ -39,8 +41,8 @@ EdgeOCR APPに、プログラムを起動したパソコンのIPアドレスと�
 設定を行い実際にスキャンをすると、コマンドプロントにスキャン結果が表示されます。
 
 設定方法は下記の画像を参考にしてください。
-![Http 設定例](images/http.png)
 
+<img src="images/http.png" width="320px">
 
 
 
