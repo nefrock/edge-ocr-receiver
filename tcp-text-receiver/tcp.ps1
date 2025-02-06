@@ -13,11 +13,8 @@ while ($true) {
     Add-Type -AssemblyName System.Windows.Forms
     [System.Windows.Forms.Clipboard]::SetText($line)
     [System.Windows.Forms.SendKeys]::SendWait("^v")
-    
     $reader.Close()
-
     $stream.Close()
-    
     $tcpClient.Close()
 }
 
